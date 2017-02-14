@@ -1,4 +1,8 @@
 #pragma once
+
+#include <iostream>
+#include <string>
+#include <atlbase.h>
 #include "stdafx.h"
 using namespace Proud;
 

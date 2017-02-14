@@ -4,9 +4,6 @@
 
 #pragma once
 
-
-
-
 // TODO: 프로그램에 필요한 추가 헤더는 여기에서 참조합니다.
 //#include "windows.h"
 
@@ -19,6 +16,8 @@ namespace PNWrap2
 	ref class WrapCCallBackArgs;
 	typedef System::String SString;
 }
+
+
 
 #include "EnumErrorType.h"
 #include <iostream>
@@ -36,6 +35,7 @@ namespace PNWrap2
 #include "WrapCPropNodePtr.h"
 #include "WrapDbLoadedData.h"
 #include "WrapCCallbackArgs.h"
+
 
 #ifdef _UNICODE
 #if defined _M_IX86

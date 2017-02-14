@@ -84,7 +84,7 @@ namespace PNWrap2
 		virtual void OnSomeoneModifyValue(CCallbackArgs& args)PN_OVERRIDE;
 		virtual void OnSomeoneSetValue(CCallbackArgs& args)PN_OVERRIDE;
 
-		virtual void OnException(Proud::Exception &e) PN_OVERRIDE;
+		virtual void OnException(const Proud::Exception &e) PN_OVERRIDE;
 		virtual void OnWarning(ErrorInfo *errorInfo)PN_OVERRIDE;
 		virtual void OnError(ErrorInfo *errorInfo)PN_OVERRIDE;
 

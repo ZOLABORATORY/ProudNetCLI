@@ -283,7 +283,7 @@ namespace PNWrap2
 		if (NULL != callbacks::When_OnRemoveDataSuccess) callbacks::When_OnRemoveDataSuccess(cc);
 	}
 
-	void Manager::OnException(Proud::Exception &e)
+	void Manager::OnException(const Proud::Exception &e)
 	{
 		String str;
 		str.Format(L"Exception! %s: %s", LoadString(IDS_STRING120), e.what());

@@ -4,7 +4,6 @@
 
 #include "stdafx.h"
 
-
 namespace PNWrap2
 {
 	OnDBLoadFinished* callbacks::When_OnExclusiveLoadDataComplete = NULL;
